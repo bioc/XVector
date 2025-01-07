@@ -112,6 +112,7 @@ void R_init_XVector(DllInfo *info)
 	REGISTER_CCALLABLE(_filexp_rewind);
 	REGISTER_CCALLABLE(_filexp_puts);
 	REGISTER_CCALLABLE(_filexp_putc);
+	REGISTER_CCALLABLE(_filexp_fwrite);
 	REGISTER_CCALLABLE(_delete_trailing_LF_or_CRLF);
 
 /* Ocopy_byteblocks.c */

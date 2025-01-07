@@ -45,6 +45,13 @@ void _filexp_putc(
 	int c
 );
 
+size_t _filexp_fwrite(
+	SEXP filexp,
+	const void *data_ptr,
+	size_t size,
+	size_t nitems
+);
+
 SEXP new_input_filexp(SEXP filepath);
 
 SEXP rewind_filexp(SEXP filexp);
